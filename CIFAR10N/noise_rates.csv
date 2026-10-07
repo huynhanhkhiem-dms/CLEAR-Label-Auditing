@@ -1,0 +1,6 @@
+label_set,n,errors,noise_rate
+aggre_label,50000,4505,0.0901
+worse_label,50000,20104,0.40208
+random_label1,50000,8617,0.17234
+random_label2,50000,9061,0.18122
+random_label3,50000,8820,0.1764
