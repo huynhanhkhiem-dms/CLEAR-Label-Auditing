@@ -37,3 +37,7 @@ The pilot is conditional on four synthetic finite repositories. Strong-score set
 5. Human author verification of all quantitative results, manuscript and journal-specific disclosure policy.
 
 The branch is **not** submission-ready and should not be merged into the archival submission snapshot before the next independent QA.
+
+## Two-wave conditional pilot (negative/limited result)
+
+Run `python research/two_wave_pilot.py`. A frozen 80-record first-wave sample determines the allocation of a separate 320-record second-wave SRS, with the certificate computed only on the remaining records. Conditional on the first-wave outcome, the second-wave hypergeometric inference remains valid for precommitted second-wave strata and cutoffs. This does not make two-wave adaptation automatically powerful: in the synthetic moderate-signal condition, the adaptive rule produced a nonempty list in only 7/90 audits (7.8%), versus 86/90 (95.6%) for the separate one-wave stratified pilot using all 400 verifications for certification. These are different designs, not a controlled apples-to-apples allocation improvement. The result is a warning against presenting adaptive sampling as a success without further optimization and matched-budget evaluation.
