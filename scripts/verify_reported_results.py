@@ -38,7 +38,7 @@ def main():
     cr = get(c, "CLEAR-pooled", 0.10)
     assert close(cr.FDR, 0.0457927528486098)
     assert close(cr.power, 0.1983280644353076)
-    wb = pd.read_csv(ROOT / "CIFAR10N" / "cifar10n_summary.csv")
+    wb = pd.read_csv(ROOT / "CIFAR10N" / "worse_summary.csv")
     worse = wb[(wb.label_set == "worse_label") & (wb.method == "CLEAR-pooled") & (wb.q.round(8) == 0.1)].iloc[0]
     assert close(worse.FDR, 0.087363445799484)
     assert close(worse.power, 0.3931288156041715)
