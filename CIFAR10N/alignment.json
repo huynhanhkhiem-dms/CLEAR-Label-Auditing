@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "n": 50000,
+  "matches": 50000,
+  "human_file_sha256": "873e69c39cb9b5e97fb6bae2d60bb59b38a5cbc31d2b868f7903dcb2b9dd2310",
+  "source_url": "https://raw.githubusercontent.com/UCSC-REAL/cifar-10-100n/main/data/CIFAR-10_human.pt"
+}
