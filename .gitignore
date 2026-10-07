@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+runs/
+work/
+CIFAR-10_human.pt
+resnet18_train_embeddings.npy
+*.tmp
+*.log
