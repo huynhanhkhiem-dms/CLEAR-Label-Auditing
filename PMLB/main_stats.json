@@ -1,0 +1,8 @@
+{
+  "main_rows": 29700,
+  "ok_rows": 29700,
+  "datasets": 55,
+  "wilcoxon_stat": 11.0,
+  "wilcoxon_p": 1.0132567852144593e-10,
+  "wilcoxon_n": 55
+}
