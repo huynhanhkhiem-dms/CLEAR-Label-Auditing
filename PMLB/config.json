@@ -1,0 +1,20 @@
+{
+  "protocol": "CLEAR_pooled_SRS",
+  "outer_test_fraction": 0.2,
+  "main_verification_budget": 200,
+  "noise_mechanisms": ["symmetric","asymmetric","instance_dependent"],
+  "noise_levels": [0.1,0.2],
+  "q_levels": [0.05,0.1,0.2],
+  "seeds": [11,23,37,53,71],
+  "oof_folds": 3,
+  "min_datasets": 40,
+  "manifest_target": "all_eligible_under_fixed_filters",
+  "min_N": 500,
+  "max_N": 20000,
+  "max_p": 200,
+  "min_class_count": 30,
+  "max_classes": 10,
+  "checkpoint_unit": "dataset_seed",
+  "manifest_policy": "pmlb_1.0.1.post3_frozen_list_exact_duplicate_dedup",
+  "natural_noise_optional": false
+}
