@@ -1,0 +1,9 @@
+{
+  "model": "torchvision.models.resnet18",
+  "weights": "IMAGENET1K_V1",
+  "shape": [50000,512],
+  "dtype": "float32",
+  "sha256": "59dcec82f4e649fb60ffe49e6f08e6b4066990bf5709be80d155882c82c98a0a",
+  "gpu": "NVIDIA L4",
+  "torch_version": "2.11.0+cu128"
+}
