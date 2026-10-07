@@ -1,0 +1,14 @@
+{
+  "dataset": "CIFAR-10N",
+  "label_sets": ["aggre_label","worse_label","random_label1","random_label2","random_label3"],
+  "primary_label_sets": ["aggre_label","worse_label"],
+  "q_levels": [0.05,0.1,0.2],
+  "audit_seeds": [1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046,1047,1048,1049,1050,1051,1052,1053,1054,1055,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1066,1067,1068,1069,1070,1071,1072,1073,1074,1075,1076,1077,1078,1079,1080,1081,1082,1083,1084,1085,1086,1087,1088,1089,1090,1091,1092,1093,1094,1095,1096,1097,1098,1099],
+  "main_verification_budget": 200,
+  "budget_grid": [50,100,200,400,800],
+  "centroid_oof_folds": 5,
+  "centroid_temperature": 0.1,
+  "biased_strength": 4.0,
+  "embedding_model": "torchvision_resnet18_IMAGENET1K_V1",
+  "methods": ["CLEAR-pooled","CLEAR-biased-gold","cleanlab","model-disagreement","BHN-style-centroid","CLEAR-oracle-score"]
+}
