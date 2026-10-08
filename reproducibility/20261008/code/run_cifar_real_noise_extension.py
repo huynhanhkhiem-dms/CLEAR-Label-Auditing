@@ -130,4 +130,3 @@ def main():
         if x['budget']==max(args.budgets) and x['certificate']=='prefix_conditional':
             print(x['label_set'],x['design'],'return',round(x['mean_returned'],2),'cert',round(x['nonempty_rate'],2),'errors',round(x['mean_verified_errors'],1),'fails',x['bound_failure_draws'],flush=True)
 if __name__=='__main__': main()
-
